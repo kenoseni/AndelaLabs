@@ -1,4 +1,4 @@
-function getPrimes(N){
+exports.getPrimes = function (N) {
   var numbers = [];
   var prime = [];
   var squareRoot = Math.sqrt(N);
