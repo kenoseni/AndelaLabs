@@ -56,6 +56,10 @@ describe("Data types tests ", function() {
       expect(dataType.dataTypes('')).toBe(0);
     });
 
+    it("should return the length of `metropolitan`", function() {
+      expect(dataType.dataTypes('metropolitan')).toBe(12);
+    });
+
     it("should return the length of `555`", function() {
       expect(dataType.dataTypes('555')).toBe(3);
     });
