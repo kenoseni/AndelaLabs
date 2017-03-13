@@ -5,7 +5,7 @@ exports.getPrimes = function (N) {
   for(var i = 2; i < squareRoot; i++){
     if(!numbers[i]){
       for(var k = i * i; k < N; k+=i){
-        numbers[k] = 'replace';
+        numbers[k] = 'replaced';
       }
     }
   }
