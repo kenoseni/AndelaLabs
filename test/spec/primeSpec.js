@@ -15,6 +15,13 @@ describe('Prime Numbers from an integer: ', function () {
 			expect(getPrimes(30)).toEqual([2, 3, 5, 7, 11, 13, 17, 23, 29]);
 		});
 
+		it("should return [] for -5", function (){
+			expect(getPrimes(-5)).toEqual([]);
+		});
+
+		it("should return [] for 'strings'", function (){
+			expect(getPrimes("prime")).toEqual([]);
+		});
 		
 
 		it("should return [2, 3, 5, 7, 11, 13, 17, 23, 29, 31,37, 41, 43, 47, 53, 57, 59] for 60", function (){

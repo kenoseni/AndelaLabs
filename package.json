@@ -1,0 +1,14 @@
+{
+  "name": "minmax",
+  "version": "1.0.0",
+  "description": "function to write and test minmax",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=test/config/jasmine.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
