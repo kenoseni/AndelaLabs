@@ -1,4 +1,4 @@
-Exports.Customer = function(name){
+exports.Customer = function(name){
   balance = 0;
   amount = 0
   this.Name = name;
@@ -15,3 +15,5 @@ Exports.Customer = function(name){
     return this.Balance;
   };
 };
+
+tayo = new Customer("tayo");
